@@ -41,13 +41,18 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="subtitle sub1">Abou<span>t</span> Me</h1>
-                    <p>Hi, i'm Amit shen, I have completed my Diploma in Computer Science and Engineering from GLI Agra.<br>
+                    <p>Hi, i'm Amit shen, I have completed my Diploma in Computer Science and Engineering from GLI
+                        Agra.<br>
                         <br>
-                        As a diplome student, I worked as the backend developer in my college project that project i worked as a php developer and manage all the database & users request.
-                        I'm a backend developer adapt at contributing to highly collaborative work environment, finding solutions and determining customer satisfaction.
+                        As a diplome student, I worked as the backend developer in my college project that project i
+                        worked as a php developer and manage all the database & users request.
+                        I'm a backend developer adapt at contributing to highly collaborative work environment, finding
+                        solutions and determining customer satisfaction.
                         <br><br>
-                        When i have free time i would like to play video games, listening music, playing some outdoor games like cricket, vollyball etc and for up-to-date information, listen to tech podcast.<br>
-                        <b>To hire me as a backend developer, Email me at developer.amit.er@gmail.com</b>.</p>
+                        When i have free time i would like to play video games, listening music, playing some outdoor
+                        games like cricket, vollyball etc and for up-to-date information, listen to tech podcast.<br>
+                        <b>To hire me as a backend developer, Email me at developer.amit.er@gmail.com</b>.
+                    </p>
                     <div class="tab-title">
                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
@@ -71,7 +76,8 @@
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>Diploma in 2022</span><br>3 Years of Diploma in computer science and engineering</li>
+                            <li><span>Diploma in 2022</span><br>3 Years of Diploma in computer science and engineering
+                            </li>
                             <li><span>12th in 2018</span><br>Got 65% marks in 12th Board Exam with Pcm</li>
                             <li><span>10th</span><br>70% marks in high school board exam</li>
                         </ul>
@@ -99,7 +105,8 @@
                 <div>
                     <i class="fa-solid fa-satellite"></i>
                     <h2>CTF</h2>
-                    <p>Capture the flag is online machine solving problem and i solve some easy machine on Try Hack Me and increasing my knowledge about Hacking</p>
+                    <p>Capture the flag is online machine solving problem and i solve some easy machine on Try Hack Me
+                        and increasing my knowledge about Hacking</p>
                     <a href="https://tryhackme.com/p/hero7079">Learn More</a>
                 </div>
             </div>
@@ -113,7 +120,8 @@
                     <img src="image/work-1.png">
                     <div class="layer">
                         <h3>Hotel Mangement System</h3>
-                        <p>Using this site you can book any available room in the hotel and admin(Manager) confirm your room</p>
+                        <p>Using this site you can book any available room in the hotel and admin(Manager) confirm your
+                            room</p>
                         <a href="https://github.com/Amitshen/HotelMangementSystem"><i
                                 class="fa-sharp fa-solid fa-link"></i></a>
                     </div>
@@ -192,20 +200,20 @@
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzbjKuPvQX_5BZJDKTEHlij3T1VW-5dF-DVqLnC6M1ftlRi4Se6aEzsCFFXxxp4fuzIPw/exec'
         const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
-      
+
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => {
-                msg.innerHTML = "Message sent successfully"
-                setTimeout(function(){
-                    msg.innerHTML = ""
-                },5000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
         })
-      </script>
+    </script>
 </body>
 
 </html>
